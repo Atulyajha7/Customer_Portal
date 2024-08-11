@@ -1,0 +1,64 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  padding: 8px;
+  background-color: #cfe3ee;
+  border-bottom: 1px solid #c1daf6;
+  text-align: center;
+}
+
+.content-container {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.customer-list {
+  width: 30%;
+  border-right: 1px solid #c4ffff;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.customer-card {
+  padding: 10px;
+  border-bottom: 1px solid #788083;
+  cursor: pointer;
+}
+
+.customer-card.selected {
+  background-color: #a2becb;
+}
+
+.customer-details {
+  width: 70%;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center; 
+  gap: 30px; 
+  width: 700px; 
+  height: 700px; 
+  margin: 0 auto; 
+}
+
+.photo-grid img {
+  width: 190px; 
+  height: 190px; 
+  border-radius: 8px; 
+  object-fit: cover; 
+}
+
+
+
+  
